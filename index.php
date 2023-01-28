@@ -5,7 +5,7 @@
 <head>
   <meta charset="utf-8">
   <title>Web Test</title>
-  
+  <link rel="stylesheet" href="style.css">
   <?php
 	 	if(array_key_exists("num1", $num_errors) && $num_errors["num1"] != null)
 	 		?> <style>.error{display:block}</style> <?php
